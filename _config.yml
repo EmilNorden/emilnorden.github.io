@@ -18,21 +18,58 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: "Emil Nordén"
+subtitle: "Woop"
+name: "Emil Nordén"
+email: mail@emilnorden.se
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://emilnorden.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  EmilNorden
+repository: "emilnorden/emilnorden.github.io"
+
+teaser: assets/images/rust-logo-512x512.png
+logo: "/assets/images/rust-logo-512x512.png"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+author:
+  name: "Emil Nordén"
+  avatar: /assets/images/me.jpeg
+  bio: "Im a tomato!"
+  location: "Gothenburg, Sweden"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/emilnorden"
+    - label: "Github"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://github.com/EmilNorden"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram-square"
+      url: "https://www.instagram.com/emil.norden/"
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +90,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include: ["_pages"]
