@@ -32,7 +32,7 @@ twitter_username: jekyllrb
 github_username:  EmilNorden
 repository: "emilnorden/emilnorden.github.io"
 
-teaser: assets/images/rust-logo-512x512.png
+teaser: "assets/images/rust-logo-512x512.png"
 logo: "/assets/images/rust-logo-512x512.png"
 
 defaults:
@@ -51,9 +51,14 @@ defaults:
 author:
   name: "Emil Nordén"
   avatar: /assets/images/me.jpeg
-  bio: "Im a tomato!"
+  bio: "Low-level aficionado and Rust enthusiast.
+<br/>
+Currently working as CTO at Knowit Technology."
   location: "Gothenburg, Sweden"
   links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/emilnorden/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/emilnorden"
