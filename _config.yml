@@ -35,6 +35,16 @@ repository: "emilnorden/emilnorden.github.io"
 teaser: "assets/images/rust-logo-512x512.png"
 logo: "/assets/images/rust-logo-512x512.png"
 
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id: "MDEwOlJlcG9zaXRvcnk0MDExMDE4ODk="
+    category_name: "Announcements"
+    category_id: "DIC_kwDOF-hUQc4B-5St"
+    discussion_term: "pathname"
+    reactions_enabled: 1
+    theme: "light"
+
 defaults:
   # _posts
   - scope:
