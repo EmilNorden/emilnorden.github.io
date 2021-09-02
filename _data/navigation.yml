@@ -1,5 +1,5 @@
 main:
   - title: "Blog"
-    url: /year-archive/
+    url: /posts/
   - title: "Categories"
     url: /categories/

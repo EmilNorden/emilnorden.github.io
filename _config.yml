@@ -18,8 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Emil Nordén"
-subtitle: "Woop"
+title: "Yet Another Programming Blog"
+subtitle: "But this one is mine"
+
 name: "Emil Nordén"
 email: mail@emilnorden.se
 description: >- # this means to ignore newlines until "baseurl:"
@@ -28,12 +29,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://emilnorden.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: emilnorden
 github_username:  EmilNorden
 repository: "emilnorden/emilnorden.github.io"
 
 teaser: "assets/images/rust-logo-512x512.png"
-logo: "/assets/images/rust-logo-512x512.png"
+# logo: "/assets/images/rust-logo-512x512.png"
 
 comments:
   provider: "giscus"
@@ -61,11 +62,14 @@ defaults:
 author:
   name: "Emil Nordén"
   avatar: /assets/images/me.jpeg
-  bio: "Low-level aficionado and Rust enthusiast.
+  bio: "Low level aficionado and Rust enthusiast.
 <br/>
 CTO @ Knowit Technology."
   location: "Gothenburg, Sweden"
   links:
+    - label: "Mail"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:mail@emilnorden.se"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/emilnorden/"
