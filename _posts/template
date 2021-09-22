@@ -1,0 +1,15 @@
+---
+layout: single
+title: "Rewriting Doom in Rust Part 1"
+category: "Doom in Rust series"
+tags: rust doom
+header:
+  teaser: /assets/images/doom-spider.png
+---
+
+Before diving into the Doom source code I'm going to need a window and some way of rendering to it.  
+I'm going to sett
+First of all we're going to need a window and decide how to render to it.  
+  
+
+In my [previous adventures](https://github.com/EmilNorden/DOOM) with the Doom source code, 
